@@ -1,5 +1,10 @@
 package test;
 
 public enum Size {
-    SMALL , MEDIUM , LARGE
+    SMALL('S') , MEDIUM('M') , LARGE('L'),
+    ;
+
+
+    Size(char s) {
+    }
 }
